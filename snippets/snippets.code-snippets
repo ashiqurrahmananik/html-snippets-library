@@ -1,0 +1,109 @@
+{
+  "For h1": {
+    "prefix": ["h", "h1"],
+    "body": ["<h1>$0</h1>"],
+    "description": "for h1."
+  },
+  "For h2": {
+    "prefix": ["h", "h2"],
+    "body": ["<h2>$0</h2>"],
+    "description": "for h2."
+  },
+  "For h3": {
+    "prefix": ["h", "h3"],
+    "body": ["<h3>$0</h3>"],
+    "description": "for h3."
+  },
+  "For h4": {
+    "prefix": ["h", "h4"],
+    "body": ["<h4>$0</h4>"],
+    "description": "for h4."
+  },
+  "For h5": {
+    "prefix": ["h", "h5"],
+    "body": ["<h5>$0</h5>"],
+    "description": "for h5."
+  },
+  "For h6": {
+    "prefix": ["h", "h6"],
+    "body": ["<h6>$0</h6>"],
+    "description": "for h6."
+  },
+  "For p": {
+    "prefix": ["p"],
+    "body": ["<p>$0</p>"],
+    "description": "for p."
+  },
+  "For br": {
+    "prefix": ["b", "br"],
+    "body": ["<br>"],
+    "description": "for p."
+  },
+  "For html": {
+    "prefix": ["html", "html5"],
+    "body": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "<head>",
+      "<title>Title of the document</title>",
+      "</head>",
+
+      "<body>",
+      "$0",
+      "</body>",
+
+      "</html>"
+    ],
+    "description": "for html."
+  },
+  "For a": {
+    "prefix": ["a"],
+    "body": ["<a href=''>$0</a>"],
+    "description": "for a."
+  },
+  "For form": {
+    "prefix": ["form"],
+    "body": ["<form>$0</form>"],
+    "description": "for form."
+  },
+  "For img": {
+    "prefix": ["img"],
+    "body": ["<img src='' alt=''>"],
+    "description": "for img."
+  },
+  "For input": {
+    "prefix": ["input"],
+    "body": ["<input type='' id='' name=''>"],
+    "description": "for input."
+  },
+  "For iframe": {
+    "prefix": ["iframe"],
+    "body": ["<iframe src='' title=''>$0</iframe>"],
+    "description": "for img."
+  },
+  "For link": {
+    "prefix": ["link"],
+    "body": ["<link rel='stylesheet' href='styles.css'>"],
+    "description": "for link."
+  },
+  "For table": {
+    "prefix": ["table"],
+    "body": ["<table>$0</table>"],
+    "description": "for table."
+  },
+  "For tr": {
+    "prefix": ["tr"],
+    "body": ["<tr></tr>"],
+    "description": "for tr."
+  },
+  "For th": {
+    "prefix": ["th"],
+    "body": ["<th></th>"],
+    "description": "for th."
+  },
+  "For div": {
+    "prefix": ["div"],
+    "body": ["<div></div>"],
+    "description": "for div."
+  }
+}

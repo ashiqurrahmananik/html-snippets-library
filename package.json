@@ -1,0 +1,22 @@
+{
+  "name": "html-snippets-library",
+  "displayName": "Html Snippets Library",
+  "description": "Html Snippets Library",
+  "publisher": "AshiqurRahmanAnik",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
